@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		522C795225FA8146007665C1 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522C795125FA8145007665C1 /* WeatherTableViewCell.swift */; };
-		522C795725FA8B3C007665C1 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522C795625FA8B3C007665C1 /* WebService.swift */; };
 		5270656225FB7FED008C5A7B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5270656125FB7FED008C5A7B /* DetailsViewController.swift */; };
 		5270656725FB8561008C5A7B /* ChosenCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5270656625FB8561008C5A7B /* ChosenCity.swift */; };
 		527F8DC125FD402500FF46D8 /* CheckInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527F8DC025FD402500FF46D8 /* CheckInternet.swift */; };
@@ -43,7 +42,6 @@
 
 /* Begin PBXFileReference section */
 		522C795125FA8145007665C1 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
-		522C795625FA8B3C007665C1 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		5270656125FB7FED008C5A7B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		5270656625FB8561008C5A7B /* ChosenCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChosenCity.swift; sourceTree = "<group>"; };
 		527F8DC025FD402500FF46D8 /* CheckInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInternet.swift; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 				52EB7F7025FA43EB00FBB553 /* Weather.xcdatamodeld */,
 				52EB7F9D25FA479300FBB553 /* Weather.swift */,
 				522C795125FA8145007665C1 /* WeatherTableViewCell.swift */,
-				522C795625FA8B3C007665C1 /* WebService.swift */,
 				5270656125FB7FED008C5A7B /* DetailsViewController.swift */,
 				5270656625FB8561008C5A7B /* ChosenCity.swift */,
 				527F8DC025FD402500FF46D8 /* CheckInternet.swift */,
@@ -282,7 +279,6 @@
 				5270656725FB8561008C5A7B /* ChosenCity.swift in Sources */,
 				522C795225FA8146007665C1 /* WeatherTableViewCell.swift in Sources */,
 				52EB7F7225FA43EB00FBB553 /* Weather.xcdatamodeld in Sources */,
-				522C795725FA8B3C007665C1 /* WebService.swift in Sources */,
 				5270656225FB7FED008C5A7B /* DetailsViewController.swift in Sources */,
 				52EB7F6C25FA43EB00FBB553 /* ViewController.swift in Sources */,
 				52EB7F6825FA43EB00FBB553 /* AppDelegate.swift in Sources */,

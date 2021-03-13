@@ -310,7 +310,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             
             let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Cities")
             
-            let idString = idArray[indexPath.row].uuidString
+            let idString = idArray[indexPath.row-1].uuidString
             
             fetchRequest.predicate = NSPredicate(format: "id = %@", idString)
             fetchRequest.returnsObjectsAsFaults = false
@@ -320,11 +320,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 if results.count > 0 {
                     for result in results as! [NSManagedObject]{
                         if let id = result.value(forKey: "id") as? UUID{
-                            if id == idArray[indexPath.row]{
+                            if id == idArray[indexPath.row-1]{
                                 context.delete(result)
-                                citiesArray.remove(at: indexPath.row)
-                                idArray.remove(at: indexPath.row)
+                                citiesArray.remove(at: indexPath.row-1)
+                                idArray.remove(at: indexPath.row-1)
                                 self.tableView.reloadData()
+                                
                                 
                                 do{
                                     try context.save()
